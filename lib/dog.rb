@@ -1,15 +1,15 @@
 class Dog
  def intitialize (name, breed)
-  @this_dogs_name = name
+  @name = name
   @breed = breed
  end
 
  def name
-  @this_dogs_name
+  @name
 end
 
  def breed
   @breed
  end
- 
+
 end
