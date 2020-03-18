@@ -1,22 +1,16 @@
 class Person
- def name= (name)
+ def intitialize (name, job)
   @this_persons_name = name
+  @job = breed
  end
 
  def name
   @this_persons_name
- end
 
- def job= (job)
-  @this_persons_job = name
+ def breed
+  @job
  end
-
- def job
-  @this_persons_job 
- end
-
 end
-
 
 adele_goldberg = Person.new
 alan_kay = Person.new
