@@ -5,7 +5,7 @@ class Person
  end
 
  def name
-  @this_persons_name
+  @name
  end
 
  def breed
