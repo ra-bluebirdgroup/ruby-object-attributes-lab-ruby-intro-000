@@ -1,7 +1,7 @@
 class Person
  def intitialize (name, job)
-  @this_persons_name = name
-  @job = breed
+  @name = name
+  @job = job
  end
 
  def name
